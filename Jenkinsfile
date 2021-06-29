@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('docker-image-create') {
       steps {
         sh 'docker build -t hello_wolrd .'
       }
